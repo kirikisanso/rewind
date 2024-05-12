@@ -44,4 +44,18 @@ function moveSlider(direction) {
     }, {once: true})
 }
 
+
+   // JavaScript для бургер-меню
+    document.addEventListener("DOMContentLoaded", function () {
+        const burgerIcon = document.querySelector(".burger-icon");
+        const burgerMenu = document.querySelector(".burger-menu");
+
+        burgerIcon.addEventListener("click", function () {
+            burgerMenu.classList.toggle("active");
+        });
+    });
+
+
+
+
 // hi Islam 😉
